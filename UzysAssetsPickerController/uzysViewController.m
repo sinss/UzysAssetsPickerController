@@ -109,7 +109,7 @@
     }
     else if([sender isEqual:self.btnImageAndVideo])
     {
-        picker.maximumNumberOfSelectionMedia = 2;
+        picker.maximumNumberOfSelectionMedia = 10;
     }
     [self presentViewController:picker animated:YES completion:^{
         
